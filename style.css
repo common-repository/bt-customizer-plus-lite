@@ -1,0 +1,38 @@
+.wp-full-overlay-sidebar-content {
+	bottom: 90px !important;
+}
+
+#bt_customizer_plus {
+	position: fixed;
+	bottom: 45px;
+	border-top: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+	box-sizing: border-box;
+	left: 0;
+    min-width: 299px;
+    max-width: 599px;
+    width: calc(18% - 1px);
+	height: 46px;
+	padding: 0 15px;
+	background: #eee;
+	display: flex;
+    align-items: center;
+	justify-content: space-between;
+}
+
+#bt_customizer_plus #bt_customizer_plus_enable_override {
+	margin-top: 0px;
+	margin-right: 8px;
+}
+
+.bt_customizer_plus_disabled {
+	pointer-events: none;
+}
+
+.bt_customizer_plus_disabled label {
+	opacity: .3;
+}
+
+#bt_customizer_plus .spinner {
+	margin: 0;
+}
